@@ -1,0 +1,42 @@
+﻿<Page
+    
+    x:Class="MiniPharma.Views.MiniPharmaPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    mc:Ignorable="d">
+    <ScrollViewer HorizontalScrollMode="Enabled" HorizontalScrollBarVisibility="Auto" Width="Auto">
+        <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+            <Grid
+            Background="{ThemeResource SystemControlForegroundChromeWhiteBrush}" Margin="-21,0,21,0">
+                <TextBlock x:Name="TextBlock" HorizontalAlignment="Left" Margin="75,120,0,0" Text="TOTUL DESPRE MINIPHARMA" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="40" FontFamily="Castellar" IsColorFontEnabled="True" Foreground="Green" IsHitTestVisible="True" FontWeight="Bold" Height="117" Width="687"/>
+                <TextBlock HorizontalAlignment="Left" Height="47" Margin="191,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontSize="32" AllowDrop="True"><Run Text="CINE SUNTEM NOI?" FontWeight="Bold" Foreground="DodgerBlue"/><LineBreak/><Run/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Height="91" Margin="205,362,0,0" Text="  Suntem un grup de studenti care vor sa ajute oamenii sa le fie mai usor atunci cand nu se simt bine si au nevoie de medicamente." TextWrapping="Wrap" VerticalAlignment="Top" Width="1106" FontSize="18" SelectionChanged="TextBlock_SelectionChanged_1"/>
+                <TextBlock HorizontalAlignment="Left" Height="44" Margin="191,551,0,0" Text="CUM FUNCTIONEAZA APLICATIA MINIPHARMA?" TextWrapping="Wrap" VerticalAlignment="Top" Width="476" FontWeight="Bold" FontSize="32" Foreground="DodgerBlue"/>
+                <TextBlock HorizontalAlignment="Left" Height="44" Margin="191,707,0,0" Text="CARE SUNT FARMACIILE CU CARE COLABORAM?" TextWrapping="Wrap" VerticalAlignment="Top" Width="746" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue"/>
+                <TextBlock HorizontalAlignment="Left" Height="41" Margin="191,415,0,0" Text="DE CE AM ALES ACEASTA IDEE PENTRU APLICATIE?" TextWrapping="Wrap" VerticalAlignment="Top" Width="530" FontSize="32" FontWeight="Bold" Foreground="DodgerBlue"/>
+                <TextBlock HorizontalAlignment="Left" Height="60" Margin="173,856,0,0" Text="VA ASIGURAM CA NOI PUTEM SA VA OFERIM PRIN INTERMEDIUL APLICATIEI NOASTRE, CEA MAI IEFTINA DOZA DE MEDICAMENT DORITA DAR SI CEA MAI APROAPE FARMACIE DE DUMNEAVOASTRA!" TextWrapping="Wrap" VerticalAlignment="Top" Width="1183" FontSize="24" FontWeight="Bold" FontStyle="Italic" Foreground="DodgerBlue"
+                      />
+                <Image x:Name="SamplePhoto0" HorizontalAlignment="Left" Height="308" Margin="779,36,0,0" VerticalAlignment="Top" Width="628" Stretch="None" FocusVisualPrimaryBrush="{x:Null}" Source="/Assets/SamplePhoto0.png" Visibility="Visible" Opacity="0.785" />
+                <TextBlock HorizontalAlignment="Left" Height="62" Margin="205,466,0,0" Text="  Datorita faptului ca timpul se comprima iar ziua pare ca dureaza tot mai putin, ne-am gandit la o varianta mai eficienta pentru cei bolnavi." TextWrapping="Wrap" VerticalAlignment="Top" Width="1085" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Height="81" Margin="205,600,0,0" Text="  Pentru inceput, prima harta este pentru a va arata farmaciile din apropierea dumneavoastra, dar aveti si varianta in care puteti alege prima data simptomul dumneavoastra, iar mai apoi sa alegeti un medicament, urmand intr-un final sa vi se afiseze cea mai ieftina si mai aproape varianta a dumneavoastra." TextWrapping="Wrap" VerticalAlignment="Top" Width="1100" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Height="48" Margin="205,766,0,0" Text="  Avem o gama larga de farmacii care au apreciat produsul nostru, printre care se numara si farmacii precum Catena, HelpNet, Sensiblu." TextWrapping="Wrap" VerticalAlignment="Top" Width="1089" FontSize="18"/>
+
+
+                <!--
+                The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
+                Place your content here.
+            -->
+            </Grid>
+
+            <Image x:Name="intrebare1" Source="/Assets/questionnr2.jpg" Margin="105,269,0,577" Width="48" HorizontalAlignment="Left" RenderTransformOrigin="0.646,0.196"/>
+            <Image x:Name="intrebare2" Source="/Assets/questionnr2.jpg" Margin="105,323,0,393" Width="50" HorizontalAlignment="Left"/>
+            <Image x:Name="intrebare3" Source="/Assets/questionnr2.jpg" Margin="105,528,0,324" RenderTransformOrigin="3.93,-3.538" HorizontalAlignment="Left" Width="50"/>
+            <Image x:Name="intrebare4" Source="/Assets/questionnr2.jpg" Margin="105,682,0,183" RenderTransformOrigin="3.93,-3.538" Width="50" HorizontalAlignment="Left"/>
+            
+
+        </Grid>
+    </ScrollViewer>
+</Page>
