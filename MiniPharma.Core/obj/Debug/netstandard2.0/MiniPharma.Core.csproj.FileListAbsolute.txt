@@ -1,0 +1,9 @@
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.AssemblyInfoInputs.cache
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.AssemblyInfo.cs
+D:\Facultate\II\MiniPharma\MiniPharma.Core\bin\Debug\netstandard2.0\MiniPharma.Core.deps.json
+D:\Facultate\II\MiniPharma\MiniPharma.Core\bin\Debug\netstandard2.0\MiniPharma.Core.dll
+D:\Facultate\II\MiniPharma\MiniPharma.Core\bin\Debug\netstandard2.0\MiniPharma.Core.pdb
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.csprojAssemblyReference.cache
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.csproj.CoreCompileInputs.cache
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.dll
+D:\Facultate\II\MiniPharma\MiniPharma.Core\obj\Debug\netstandard2.0\MiniPharma.Core.pdb
